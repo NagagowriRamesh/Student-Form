@@ -1,0 +1,96 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: url('/backgroundimg3.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .container {
+      width: 60%;
+      margin: 5rem auto;
+      background: rgba(255, 255, 255, 0.46);
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 2rem;
+    }
+
+    h1 {
+      background-color: #a55c5c;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    .input-row {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .input-group {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input,
+    select {
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #888;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    input:focus,
+    select:focus {
+      outline: none;
+      border-color: #555;
+    }
+
+    .input-group .error{
+      color: red;
+      font-size: 13px;
+      margin-top: 4px;
+    }
+
+    .input-group.error input,
+    .input-group.error select {
+      border-color: red;
+    }
+
+    .input-group.success input,
+    .input-group.success select {
+      border-color: green;
+    }
+
+    #submit-btn {
+      margin-top: 1.5rem;
+      padding: 12px 25px;
+      background-color: green;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #submit-btn:hover {
+      background-color: #e0e01d;
+      color:black;
+    }

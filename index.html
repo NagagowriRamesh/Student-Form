@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Form</title>
+  <link rel="stylesheet" href="styless.css">
+
+</head>
+<body>
+  <div class="container">
+    <form id="form">
+      <h1>Student Form</h1>
+
+      <div class="input-row">
+        <div class="input-group">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" />
+          <div class="error"></div>
+        </div>
+        <div class="input-group">
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" />
+          <div class="error"></div>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+        <div class="error"></div>
+      </div>
+
+      <div class="input-group">
+        <label for="branch">Branch</label>
+        <select id="branch">
+          <option value="">Choose the Branch</option>
+          <option value="Biotech">Biotechnology</option>
+          <option value="Microbio">Microbiology</option>
+          <option value="Biochem">Biochemistry</option>
+          <option value="Bioinfo">Bioinformatics</option>
+          <option value="Immuno">Immunology</option>
+          <option value="RDNA">RDNA technology</option>
+          <option value="Genetics">Genetics</option>
+          <option value="Genetical Engg">Genetical Engineering</option>
+        </select>
+        <div class="error"></div>
+      </div>
+
+      <div class="input-group">
+        <label for="degree">Degree</label>
+        <select id="degree">
+          <option value="">Select the Degree</option>
+          <option value="B.Sc">B.Sc.,</option>
+          <option value="M.Sc">M.Sc.,</option>
+        </select>
+        <div class="error"></div>
+      </div>
+
+      <div class="input-group">
+        <label for="joining">Joining Date</label>
+        <input type="date" id="joining" />
+        <div class="error"></div>
+      </div>
+
+      <div class="input-group">
+        <label for="passed">Expected Passed out date</label>
+        <input type="date" id="passed" />
+        <div class="error"></div>
+      </div>
+
+      <div class="input-group">
+        <label for="incharge">Department Incharge</label>
+        <select id="incharge">
+          <option value="">Choose the Incharge</option>
+          <option value="gowri">Ms. Gowri</option>
+          <option value="devi">Ms. Devi</option>
+          <option value="roshan">Mr. Roshan</option>
+          <option value="monisha">Ms. Monisha</option>
+          <option value="vignesh">Mr. Vignesh</option>
+          <option value="rajeshwari">Mrs. Rajeshwari</option>
+          <option value="jayaraj">Mr. Jayaraj</option>
+          <option value="srinath">Mr. Srinath</option>
+        </select>
+        <div class="error"></div>
+      </div>
+
+      <button id="submit-btn" type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="/script.js">  </script>
+</body>
+</html>
